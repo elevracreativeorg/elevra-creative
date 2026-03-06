@@ -2,15 +2,23 @@
 
 ## Governance & Maintenance
 
-**Current Version:** v2.0
+**Current Version:** v2.1
 **Owner & Authority:** Alexandria France, Founder & Creative Director (sole decision-maker for brand voice updates)
-**Last Updated:** March 3, 2026
+**Last Updated:** March 5, 2026
 **Last Reviewed:** March 3, 2026
 **Next Quarterly Review:** June 3, 2026 (first Monday of Q2)
 **Review Cadence:** Quarterly (first Monday of each quarter: March, June, September, December)
 **Status:** Active
 
 ### Version History
+
+**v2.1** (March 5, 2026)
+- Added Organizational Structure section with team hierarchy, reporting lines, decision authority
+- Added Department Standards & Templates section
+- Integrated department-specific READMEs (Brand, Design, Content, Operations)
+- Expanded Reference Materials with org and team documentation
+- Added approval workflows for client deliverables
+- Updated to reflect March 10, 2026 operations launch
 
 **v2.0** (March 3, 2026)
 - Added Governance & Maintenance section with version control and review cadence
@@ -247,6 +255,81 @@ A: No. Always use full terminology. Abbreviations read as casual and reduce elev
 
 ---
 
+## Organizational Structure
+
+**Effective Date:** March 10, 2026 (Operations Launch)
+
+Elevra Creative operates as an integrated team with clear roles, reporting lines, and decision authority. For complete details, see:
+
+**→ [`ELEVRA-Org-Chart.md`](/ELEVRA-Org-Chart.md)** — Full organizational structure, roles, reporting lines, decision authority matrix, approval workflows
+
+**→ [`Reference/Team-Directory.md`](/Reference/Team-Directory.md)** — Team member contact info, expertise, availability
+
+### Leadership
+
+- **Alexandria France** — Founder & Creative Director (Final approval on all client work, brand voice authority)
+- **Enrique** — Co-Founder & Operations Director (Project routing, resource allocation, client timelines)
+
+### Departments
+
+1. **Brand Architecture Department** — Branding Specialist
+   - Leads: `Departments/Brand-Architecture/README.md`
+   - Focus: Brand architecture, positioning, messaging
+
+2. **Graphic Design Department** — Designer(s)
+   - Leads: `Departments/Graphic-Design/README.md`
+   - Focus: Visual identity, design systems, brand applications
+
+3. **Content Production Department** — Production/Content Editor
+   - Leads: `Departments/Content-Production/README.md`
+   - Focus: Photography, video, editorial content, social media
+
+4. **Digital Strategy Department** — Web Developer + CRM & Marketing Automation Specialist
+   - Leads: `Departments/Digital-Strategy/README.md`
+   - Focus: Website development, Elevra Creative Platform, automation workflows, client onboarding
+
+### Decision Authority
+
+| Decision | Authority | Input |
+|----------|-----------|-------|
+| Brand voice rules | Alexandria | Department heads, Enrique |
+| Client pricing & scope | Enrique + Alexandria | Ops + client context |
+| Deliverable approval | Alexandria | Department head + producer |
+| Timeline & capacity | Enrique | Department heads |
+| Process changes | Enrique | Alexandria approval |
+| Strategic direction | Alexandria | Department heads, Enrique |
+
+See `ELEVRA-Org-Chart.md` for complete decision matrix.
+
+### Approval Workflow for Client Deliverables
+
+```
+Department Head (produces)
+    ↓
+Enrique (routing check, timeline)
+    ↓
+Alexandria (final brand voice + quality approval)
+    ↓
+Client delivery
+```
+
+Every client-facing deliverable (design, strategy, content, web) goes through this workflow before delivery.
+
+---
+
+## Department Standards & Templates
+
+Each department maintains standards and templates to ensure consistency:
+
+- **Brand Architecture:** `Departments/Brand-Architecture/` — Positioning frameworks, competitive analysis, messaging templates
+- **Graphic Design:** `Departments/Graphic-Design/` — Component libraries, design systems, brand application guides
+- **Content Production:** `Departments/Content-Production/` — Photography guidelines, content calendars, video specs
+- **Digital Strategy:** `Departments/Digital-Strategy/` — Website development standards, automation workflows, process documentation
+
+All team members should reference their department's README when starting client work.
+
+---
+
 ## Quarterly Review Checklist
 
 Alexandria conducts this checklist the first Monday of each quarter (March, June, September, December):
@@ -266,9 +349,27 @@ Alexandria conducts this checklist the first Monday of each quarter (March, June
 
 ## Reference Materials
 
+### Organization & Team
+- **Organizational Chart:** `/ELEVRA-Org-Chart.md` (org structure, reporting, decision authority)
+- **Team Directory:** `/Reference/Team-Directory.md` (contact info, expertise, availability)
+- **Department Standards:** `/Departments/*/README.md` (Brand, Design, Content, Operations)
+
+### Brand & Voice
 - **Brand Voice Guide:** `/Internal Resources/Branding/Elevra_Brand_Voice.md`
+- **Brand Checklist:** `/Reference/Brand-Checklist.md` (pre-submission QA)
+
+### Operations & Delivery
+- **Pricing Reference:** `/Reference/Pricing.md` (quick pricing lookup)
+- **Service Specs:** `/Reference/Service-Specs.md` (deliverable specs, timelines)
+- **Client Index:** `/Reference/Client-Index.md` (active projects, status)
+
+### Sales & Marketing
 - **Sell Sheet Specs:** `/Internal Resources/Sales/Elevra_Cowork_Sell_Sheet.md`
+- **Competitive Analysis:** `/Internal Resources/Marketing/Competitive-Intelligence/`
+
+### Client Work
 - **Client Reference (Kura):** `/Clients/Kura/Kura-Content-Inspo.md`
+- **Client Projects:** `/Clients/[ClientName]/` (project briefs, deliverables, notes)
 
 ---
 
